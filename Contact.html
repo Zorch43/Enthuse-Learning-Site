@@ -11,7 +11,7 @@
 
     <title>Enthuse Learning</title>
   </head>
-  <body class="bg-light">
+  <body class="bg-light">	
 	<!--Navigation Bar-->
 	<nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top border-bottom">
 	  <a class="navbar-brand" href="index.html"><img src="EnthuseIcon.png" alt="Enthuse Learning Logo" height="64" width="64"/>Enthuse Learning</a>
@@ -33,11 +33,47 @@
 			<a class="nav-link" href="Community-Resources.html">Community Resources</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="Contact.html">Contact Us</a>
+			<a class="nav-link active" href="Contact.html">Contact Us</a>
 		  </li>
 		</ul>
 	  </div>
 	</nav>
+	
+	<div clas="jumbotron bg-light text-dark">
+		<div class="d-flex justify-content-center">
+			<div class="d-flex flex-column w75">
+				<h2 class="display-3 text-center">Contact Us</h2>
+				<p class="lead text-center">
+					If you have similar interests, contact us about collaborating on solutions:
+				</p>
+				<div class="text-center">
+					<img src="icons8-ask-question-512.png" alt="Contact Us" height="256" width="256"/>
+				</div>
+				
+				<form>
+				  <div class="form-group">
+					<label for="contactUsEmail">Email address</label>
+					<input type="email" class="form-control" id="contactUsEmail" aria-describedby="emailHelp" placeholder="Email Address">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				  </div>
+				  <div class="form-group">
+					<label for="contactUsName">Name</label>
+					<input type="text" class="form-control" id="contactUsName" placeholder="Name">
+				  </div>
+				  <div class="form-group">
+					<label for="contactUsSubject">Subject</label>
+					<input type="text" class="form-control" id="contactUsSubject" placeholder="Subject">
+				  </div>
+				  <div class="form-group">
+					<label for="contactUsMessage">Message</label>
+					<textarea class="form-control" id="contactUsMessage" rows="5"></textarea>
+				  </div>
+				  <button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<hr class="my-5"/>
 	<!--Footer-->
 	<footer class="jumbotron bg-dark text-muted">
 		<div class="row">
